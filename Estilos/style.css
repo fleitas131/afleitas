@@ -186,9 +186,9 @@ section {
 
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
-  height: 90%;
-  width: 68%;
-  margin-left: 4rem;
+  height: 70%;
+  width: 55%;
+  margin-left: 7rem;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
@@ -200,6 +200,7 @@ section {
      object-fit: cover;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
+  border-radius: 30px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
