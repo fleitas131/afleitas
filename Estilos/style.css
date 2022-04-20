@@ -377,6 +377,11 @@ section {
           justify-content: flex-start;
 }
 
+.signature {
+  text-align: center;
+  margin-top: 5rem;
+}
+
 /*Independent components*/
 .btn-con {
   display: -webkit-box;
