@@ -5,6 +5,7 @@
     list-style: none;
 }
 
+//COLORES
 :root {
     --color-primario: #191d2b;
     --color-secundario: #27AE60;
@@ -36,6 +37,7 @@ a {
     font-family: inherit;
 }
 
+//HOME
 header {
     height: 100vh;
     color: var(--color-white);
@@ -72,7 +74,7 @@ section {
     }
 }
 
-//controles
+//CONTROLES NAVBAR
 .controles {
     position: fixed;
     z-index: 10;
@@ -110,7 +112,7 @@ section {
     }
 }
 
-/*contenido header*/
+//CONTENIDO HOME
 .header-content {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -166,9 +168,9 @@ height: 100%;
 			line-height: 2rem;
 		}
 	}
-	}
+}
 
-/*Seccion contacto*/
+//SECCION CONTACTO
 .contact-content-container {
     display: flex;
     padding-top: 2rem;
@@ -269,12 +271,13 @@ height: 100%;
     }
 }
 
+//FIRMA PIE DE PAGINA
 .signature {
     text-align: center;
     margin-top: 5rem;
 }
 
-/*Independent components*/
+//COMPONENETES INDEPENDIENTES
 .btn-con {
 display: flex;
 align-self: flex-start;
