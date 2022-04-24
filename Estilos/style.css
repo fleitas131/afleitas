@@ -236,6 +236,59 @@ section {
   line-height: 2rem;
 }
 
+.about-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+}
+
+.about-description .whoami {
+  margin-right: 5rem;
+}
+
+.about-description .whoami h4 {
+  font-size: 3rem;
+}
+
+.about-description .description-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about-description .description-column .description-up {
+  margin-bottom: 2rem;
+}
+
+.about-description .description-column .description-up h4 {
+  font-size: 1.5rem;
+}
+
+.about-description .description-column .description-down {
+  margin-top: 2rem;
+}
+
+.about-description .description-column .description-down h4 {
+  font-size: 1.5rem;
+}
+
 .project-description {
   text-align: center;
   margin-top: 5rem;
@@ -382,7 +435,7 @@ section {
 
 .signature {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 5.2rem;
 }
 
 .btn-con {

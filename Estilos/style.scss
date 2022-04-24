@@ -170,6 +170,39 @@ height: 100%;
 	}
 }
 
+//SECCION ABOUT
+.about-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3rem;
+    .whoami {
+        margin-right: 5rem;
+        h4 {
+            font-size: 3rem;
+        }
+    }
+
+    .description-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .description-up {
+            margin-bottom: 2rem;
+            h4 {
+                font-size: 1.5rem;
+            }
+        }
+        .description-down {
+            margin-top: 2rem;
+            h4 {
+                font-size: 1.5rem;
+            }
+        }       
+    }
+
+}
 
 //SECCION PROYECTOS
 .project-description {
@@ -282,7 +315,7 @@ height: 100%;
 //FIRMA PIE DE PAGINA
 .signature {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 5.2rem;
 }
 
 //COMPONENETES INDEPENDIENTES
