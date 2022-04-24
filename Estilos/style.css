@@ -320,7 +320,8 @@ section {
 }
 
 .specific-skills .skills-up h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .specific-skills .skills-up .frontend-icons {
@@ -347,8 +348,80 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.specific-skills .skills-down .skills-down-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.specific-skills .skills-down .skills-down-left .skills-down-lefttitle h4 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.specific-skills .skills-down .skills-down-left .versioncontrol-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.specific-skills .skills-down .skills-down-left .versioncontrol-icons i {
+  font-size: 4rem;
+}
+
+.specific-skills .skills-down .skills-down-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.specific-skills .skills-down .skills-down-right .skills-down-righttitle h4 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.specific-skills .skills-down .skills-down-right .management-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.specific-skills .skills-down .skills-down-right .management-icons i {
+  font-size: 4rem;
+}
+
+.specific-skills .skills-down .skills-down-right .management-icons img {
+  width: 13%;
 }
 
 .project-description {
