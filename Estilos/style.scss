@@ -180,10 +180,13 @@ height: 100%;
         margin-right: 5rem;
         h4 {
             font-size: 3rem;
+            color: var(--color-secundario);
         }
     }
 
     .description-column {
+        border-left: solid 2px var(--color-gris-3);
+        padding-left: 4rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -203,6 +206,40 @@ height: 100%;
     }
 
 }
+
+//SECCION SKILLS
+.specific-skills {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .skills-up {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h4 {
+            font-size: 1.5rem;
+        }
+        .frontend-icons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            i {
+                font-size: 5rem;
+            }
+        }
+        img {
+            width: 13%;
+        }
+    }
+
+    .skills-down {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
 
 //SECCION PROYECTOS
 .project-description {
